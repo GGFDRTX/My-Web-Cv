@@ -1,0 +1,1067 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #263238;
+    padding: 1rem;
+    text-align: center;
+    /* Center text horizontally in header */
+}
+
+
+
+/* Styling for the nav bar */
+nav {
+    background-color: #37474f;
+    padding: 10px 20px;
+    color: #ffffff;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Logo styling */
+.logo {
+    background-color: #3ff0f3;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    font-weight: bold;
+    float: left;
+}
+
+/* Align the navigation list */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+/* Style each list item */
+nav ul li {
+    display: inline-block;
+    /* Side by Side*/
+    margin-left: 1rem;
+}
+
+/* Style the links in the navigation */
+nav ul li a {
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+/* Active link style */
+nav ul li a.active {
+    color: #3ff0f3;
+}
+
+/* Hero Section */
+.hero {
+    height: 60vh;
+    width: 100%;
+    padding: 2rem;
+    background: url("../Fady_files/AAA.avif");
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Centers the content */
+    text-align: center;
+    /* Centers the text inside */
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #3ff0f3 !important;
+}
+
+.header {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+/* Welcome Section */
+.welcome {
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Welcome Section Underline */
+.underline {
+    width: 60px;
+    height: 4px;
+    background-color: #3ff0f3;
+    margin: 10px auto;
+    /* Center the underline horizontally */
+}
+
+.my-skills {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.card-container {
+    display: block;
+    /* Makes the container behave like a block-level element */
+    margin-top: 20px;
+    text-align: center;
+    /* Centers the cards horizontally */
+}
+
+.card-container .card {
+    display: inline-block;
+    /* Makes each card inline and allows them to appear side by side */
+    margin: 0 10px 20px 10px;
+    /* Adds space between the cards */
+}
+
+.card {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card i {
+    font-size: 3rem;
+    color: #f39c12;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1rem;
+}
+
+.hero-stats {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    color: white;
+    text-align: center;
+    /* Centers text inside the container */
+}
+
+.hero-stats .stat-item {
+    display: inline-block;
+    /* Makes each stat item inline */
+    margin-bottom: 1rem;
+    /* Adds space between each stat item */
+}
+
+
+.hero-stats h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ff7043;
+}
+
+.hero-stats p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.hero-stats .cta-buttons {
+    text-align: center;
+    /* Centers the content inside the container */
+}
+
+.hero-stats .cta-buttons a {
+    display: inline-block;
+    /* Makes each link appear inline */
+    margin: 0 10px;
+    /* Adds space between buttons */
+}
+
+
+.hero-stats .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-stats .btn-primary {
+    background-color: #ff7043;
+    color: white;
+}
+
+.hero-stats .btn-secondary {
+    background-color: #4caf50;
+    color: white;
+}
+
+.hero-stats .btn:hover {
+    opacity: 0.8;
+}
+
+
+.header {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+}
+
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #ffffff;
+    color: #37474f;
+}
+
+.btn-secondary {
+    background-color: #4caf50;
+    color: #ffffff;
+}
+
+.welcome {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.card-container {
+    text-align: center;
+    /* Centers the cards within the container */
+    margin: 20px;
+}
+
+.card-container .card {
+    display: inline-block;
+    /* Makes each card appear side by side */
+    margin: 10px;
+    /* Adds spacing between the cards */
+    width: calc(33.33% - 20px);
+    /* Adjust width based on the number of cards you want per row */
+    box-sizing: border-box;
+    /* Ensures padding and margin are considered in width */
+}
+
+.des {
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+    color: #333;
+}
+
+.card:hover {
+    background-color: #227975;
+    color: #ea0505;
+}
+
+.card i {
+    font-size: 3rem;
+    color: #2306c7;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: #08a5d4;
+}
+
+.card p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #fc0808;
+}
+
+.read-more {
+    color: #0b7f7f;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.card.dark .read-more {
+    color: #ffffff;
+}
+
+.card:hover .read-more {
+    color: #ffffff;
+}
+
+.card:hover i {
+    color: #ffffff;
+}
+
+.works-container {
+    background-color: #607d8b;
+    text-align: center;
+    /* Centers the work items */
+    padding: 20px;
+}
+
+.work-item-featured {
+    display: inline-block;
+    /* Makes each item appear side by side */
+    width: calc(25% - 20px);
+    /* Adjust width based on the number of items per row */
+    box-sizing: border-box;
+    margin: 10px;
+    position: relative;
+    border: 5px solid #263238;
+    vertical-align: top;
+    /* Ensures items align correctly */
+    height: 350px;
+    /* Fix height for uniformity */
+    overflow: hidden;
+    /* Ensures content is contained within the set height */
+}
+
+.fade-image {
+    width: 100%;
+    height: auto;
+}
+
+.work-item-featured img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures the image covers the area */
+}
+
+.work-item-featured img:hover {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.work-item-featured:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .category {
+    color: #ff7043;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.overlay .description {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.overlay .icons {
+    text-align: center;
+    /* Center icons */
+}
+
+.overlay .icons i {
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #f20b0b;
+    padding: 0.5rem;
+    border-radius: 50%;
+    margin: 0 10px;
+    /* Adds space between icons */
+}
+
+.fade-image {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.fade-image:hover {
+    opacity: 1;
+}
+
+/* Hero Stating Section */
+.hero-stating {
+    width: 100%;
+    margin: 0 auto;
+    /* Centers the container */
+    text-align: center;
+    /* Center content horizontally */
+    font-size: 0;
+    /* Removes unwanted space between inline-block items */
+}
+
+/* For the .stating items */
+.stating {
+    display: inline-block;
+    /* Allow items to line up horizontally */
+    width: 30%;
+    /* Each item takes up 30% of the width, ensuring 3 items per row */
+    box-sizing: border-box;
+    /* Ensures padding and margin are included in the width */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px 1%;
+    /* Adds space between the cards */
+    height: 300px;
+    /* Fixed height for consistent card sizes */
+    vertical-align: top;
+    /* Align items at the top of the row */
+    background-color: black;
+}
+
+/* Ensure content inside .stating is centered vertically */
+.stating i {
+    font-size: 4rem;
+    color: #f00b0b;
+    margin-bottom: 10px;
+}
+
+.stating h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.stats h2 {
+    font-size: 3rem;
+    /* Adjust the size of the heading */
+    color: #083a46;
+    /* Text color */
+    margin-top: 20px;
+    /* Space between h1 and h2 */
+    text-align: center;
+    /* Center the text */
+    position: relative;
+    z-index: 1;
+    /* Ensure it's above the background */
+}
+
+.stating p {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+.stating:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* PRICING TABLE */
+.pricing-table {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f3f3f3;
+}
+
+.pricing-table h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #222;
+}
+
+.pricing-container {
+    width: 100%;
+    /* Full width */
+    text-align: center;
+    /* Center the pricing plans */
+    display: block;
+    /* Ensure it takes up full width */
+}
+
+/* Align the pricing plans */
+.pricing-plan {
+    display: inline-block;
+    /* Line up horizontally */
+    width: 30%;
+    /* Each card takes up 30% width */
+    box-sizing: border-box;
+    /* Ensure padding is within width */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    height: 380px;
+    margin: 10px 0;
+    /* Add margin between rows */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.pricing-plan:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-plan h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.price .dollar {
+    font-size: 1.5rem;
+    vertical-align: top;
+}
+
+.price .period {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Button Styles */
+.purchase-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    z-index: 10;
+}
+
+.purchase-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* General Section Styling */
+.tech-inspirations {
+    background: #f8f9fa;
+    /* Light grey background */
+    padding: 50px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    /* Simple font */
+}
+
+.tech-inspirations h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.tech-inspirations .intro-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+/* Container for the company items */
+.company-container {
+    width: 100%;
+    /* Make sure the container takes up full width */
+    text-align: center;
+    /* Center the items horizontally */
+    display: block;
+    /* Make the container block-level for full width */
+}
+
+/* Company Item Styling */
+.company-item {
+    display: inline-block;
+    /* Align the items horizontally */
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Light shadow */
+    width: 250px;
+    /* Fixed width for items */
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    /* Adds spacing between the items */
+    transition: transform 0.2s;
+}
+
+.company-item:hover {
+    transform: translateY(-5px);
+    /* Slight hover effect */
+}
+
+.company-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.company-item h3 {
+    font-size: 1.1rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.company-item p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+
+/* Social Icons */
+.company-social {
+    margin-bottom: 15px;
+}
+
+.company-social a {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 8px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #ff6f91, #ffc107);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.company-social a:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgba(255, 111, 145, 0.8);
+}
+
+/* Custom Background Effects */
+.company-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, rgba(0, 123, 255, 0.1), rgba(255, 99, 71, 0.1));
+    z-index: 0;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.company-item:hover::before {
+    opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .tech-inspirations h2 {
+        font-size: 2rem;
+    }
+
+    .company-item img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .company-item h3 {
+        font-size: 1.2rem;
+    }
+}
+
+/* Contact Form */
+.contact-form {
+    padding: 4rem;
+    background-color: #263238;
+    color: #ffffff;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #4caf50;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 0.75rem 1.5rem;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #37474f;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+.WhyUs {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+
+/* GENERAL STYLES */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* HEADER */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 48px;
+}
+
+h1::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: lightblue;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* WHY CHOOSE US */
+.why-us {
+    padding: 60px 20px;
+    text-align: center;
+    background: url("../Fady_files/AAA.avif");
+    color: #fff;
+}
+
+.why-us h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: 1.125rem;
+    color: #e0e0e0;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.why-us-content {
+    width: 100%;
+    text-align: center;
+}
+
+.text-content {
+    display: inline-block;
+    max-width: 400px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    vertical-align: top;
+    /* Aligns the content at the top */
+}
+
+.checkbox-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.checkbox-list li {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    display: block;
+    color: #e0e0e0;
+}
+
+.checkbox-list i {
+    font-size: 1.5rem;
+    color: #28a745;
+}
+
+.image-content {
+    display: inline-block;
+    max-width: 400px;
+    text-align: center;
+    vertical-align: top;
+    /* Aligns the content at the top */
+}
+
+.why-us-image {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-content:hover .why-us-image {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* TEAM SECTION */
+.team-container {
+    width: 100%;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.team-item {
+    display: inline-block;
+    /* Aligns the items horizontally */
+    text-align: center;
+    margin: 0 1rem;
+    /* Add space between the team items */
+    position: relative;
+    vertical-align: top;
+    /* Ensures items align properly */
+    width: 250px;
+    /* Adjust the width as needed */
+    margin-bottom: 2rem;
+    /* Space between rows */
+}
+
+.team-img img {
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.team-item:hover .team-img img {
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.team-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 50%;
+    text-align: center;
+    /* Ensures the content is centered */
+    padding-top: 30%;
+    /* Adjusts the overlay position */
+}
+
+.team-item:hover .team-overlay {
+    opacity: 1;
+}
+
+.team-overlay a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.team-overlay a:hover {
+    transform: scale(1.2);
+}
+
+/* Footer Section */
+.footer {
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #4b79a1);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer .footer-content {
+    margin: 0 auto;
+    max-width: 1200px;
+    /* Adjust this value for your desired content width */
+}
+
+.footer .footer-section {
+    margin-bottom: 20px;
+    /* Adds space between sections */
+}
+
+/* Playground Image */
+.playground-section {
+    position: relative;
+    text-align: center;
+}
+
+.playground-image {
+    max-width: 200px;
+    border-radius: 15px;
+    border: 5px solid #ffffff;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.playground-image:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.tagline {
+    margin-top: 10px;
+    font-style: italic;
+    color: #f0f8ff;
+    font-size: 1.2rem;
+}
+
+/* Social Icons */
+.social-section {
+    text-align: center;
+}
+
+.social-section h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.social-icons {
+    text-align: center;
+    /* Center the social icons */
+    margin-top: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    /* Use inline-block to align icons horizontally */
+    margin: 0 10px;
+    /* Adds space between icons */
+    text-align: center;
+    transition: all 0.4s ease;
+}
+
+.social-icons a:hover {
+    background: #ffffff;
+    color: #4b79a1;
+    transform: translateY(-5px) rotate(5deg);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
+}
+
+/* Footer Details */
+.footer-details {
+    font-size: 1rem;
+    color: #f0f8ff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-details p {
+    margin: 5px 0;
+}
+
+.footer-details strong {
+    color: #ffffff;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    font-size: 0.9rem;
+    color: #dcdcdc;
+}
+
+.footer-bottom strong {
+    color: #ffffff;
+    font-weight: bold;
+}
